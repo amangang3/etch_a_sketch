@@ -9,5 +9,15 @@ function makeRows(rows, cols) {
         container.appendChild(cell).className = "grid-item";
     };
 };
-
 makeRows(8, 40); 
+
+
+// this does not work 
+container.addEventListener("click", function() {
+    event.style.backgroundColor = black;
+})
+
+
+    // var element = document.getElementById("grid-item");
+    // element.addEventListener('click', function() {
+    //     element.background = "black"}
