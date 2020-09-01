@@ -9,15 +9,26 @@ function makeRows(rows, cols) {
         container.appendChild(cell).className = "grid-item";
     };
 };
-makeRows(8, 40); 
+ 
 
+function draw() {
+    let flop = 0; 
+    container.addEventListener("click", function(e) { 
+        flop = flop + 1; 
+        stopStartDraw(e, (flop)) 
+        container.addEventListener("mouseover", function(e) {
+            stopStartDraw(e, (flop)) }) 
+    })
+}
 
-// this does not work 
-container.addEventListener("click", function() {
-    event.style.backgroundColor = black;
-})
+function stopStartDraw(e, flop) {
+    if (flop % 2) {
+    e.target.style.background = "black"; 
+    }
+    else {
+        ; 
+    }
+}
 
-
-    // var element = document.getElementById("grid-item");
-    // element.addEventListener('click', function() {
-    //     element.background = "black"}
+makeRows(8, 40);
+draw(); 
