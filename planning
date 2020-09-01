@@ -1,4 +1,4 @@
 This document will be used to plan the Etch a Sketch document
 
 Step 1 - Create a 16 x 16 grid, use javascript to do this. DONE
-Step 2 - On click, I want to change the color of my css grid. 
+Step 2 - On click, I want to change the color of my css grid and click again to stop. DONE
