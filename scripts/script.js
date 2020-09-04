@@ -34,5 +34,5 @@ function stopStartDraw(e, flipFlop) {
     }
 }
 
-makeRows(8, 40);
+makeRows(8, 80);
 draw(); 
