@@ -6,9 +6,18 @@
         <meta charset="UTF-8" />
     </head>
     <body>
-
-    <div id = "container"></div>
-
+        <div id = "etchLogo">
+            <img src="images/etch_a_sketch.jpeg" id="logo">
+        </div>
+        <div id = "welcomeMessage">Welcome to the Etch-A-Sketch! Click in the box to enter and exit drawing mode.</div>
+        <div id = "resetResize">
+            <button type = "button" id="reset" >Reset</button>
+            <form id="gridForm"> 
+                <label for="resize"> Size of grid:</label>
+                <input type="text" id="gridSize">
+            </form>
+        </div>
+        <div id = "container"></div>
     </body>
 </html> 
 <script type="text/javascript" src="scripts/script.js"></script>

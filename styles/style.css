@@ -13,3 +13,28 @@
 #clicked-div {
     background-color: black; 
 }
+
+#etchLogo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 50px; 
+}
+
+#welcomeMessage {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 20px; 
+}
+
+#resetResize {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 20px; 
+}
+
+#gridForm {
+    padding-left: 20px; 
+}
