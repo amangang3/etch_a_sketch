@@ -27,12 +27,12 @@ function draw() {
 
 function stopStartDraw(e, flipFlop) {
     if (flipFlop % 2) {
-    e.target.style.background = "black"; 
+        e.target.style.background = "black"; 
     }
     else {
         ; 
     }
 }
 
-makeRows(8, 80);
+makeRows(20, 80);
 draw(); 
