@@ -12,17 +12,17 @@ function makeRows(rows, cols) {
  
 
 function draw() {
-    let flop = 0; 
+    let flipFlop = 0; 
     container.addEventListener("click", function(e) { 
-        flop = flop + 1; 
-        stopStartDraw(e, (flop)) 
+        flipFlop = flipFlop + 1; 
+        stopStartDraw(e, (flipFlop)) 
         container.addEventListener("mouseover", function(e) {
-            stopStartDraw(e, (flop)) }) 
+            stopStartDraw(e, (flipFlop)) }) 
     })
 }
 
-function stopStartDraw(e, flop) {
-    if (flop % 2) {
+function stopStartDraw(e, flipFlop) {
+    if (flipFlop % 2) {
     e.target.style.background = "black"; 
     }
     else {
