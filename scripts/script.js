@@ -19,6 +19,10 @@ function draw() {
         container.addEventListener("mouseover", function(e) {
             stopStartDraw(e, (flipFlop)) }) 
     })
+    // check for reset button being triggered and reload page
+    document.getElementById("reset").addEventListener("click", function(e) {
+        window.location.reload();
+    })
 }
 
 function stopStartDraw(e, flipFlop) {
